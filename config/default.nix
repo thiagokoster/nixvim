@@ -5,26 +5,26 @@
 		./globals.nix
 	];
 
-	config = {
-		opts = {
-			number = true;
-			relativenumber = true;
+  config = {
+    opts = {
+      number = true;
+      relativenumber = true;
 
-			# Number of spaces that represent a <TAB>
-			tabstop = 2;
-			softtabstop = 2;
+      # Number of spaces that represent a <TAB>
+      tabstop = 2;
+      softtabstop = 2;
 
-			# Show tabline always
-			showtabline = 2;
+      # Show tabline always
+      showtabline = 2;
 
-			# Use spaces instead of tabs
-			expandtab = true;
+      # Use spaces instead of tabs
+      expandtab = true;
 
-			# Enable smart indentation
-			smartindent = true;
+      # Enable smart indentation
+      smartindent = true;
 
-			# Number of spaces to use for each
-			shiftwidth = 2;
-	};
+      # Number of spaces to use for each
+      shiftwidth = 2;
+    };
   };
 }
